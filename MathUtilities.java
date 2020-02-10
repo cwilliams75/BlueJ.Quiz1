@@ -9,9 +9,13 @@ public class MathUtilities{
    * @return the sum of the two numbers
    */
   public Integer add(Integer baseValue, Integer valueToAdd){
-      return null;
+      int i, j, k;
+      i = 1;
+      j = 3;
+      k = i + j;
+      return("sum of two no.s=" +k);  
   }
-
+}
   /**
    * Add two number together
    * @param baseValue first number

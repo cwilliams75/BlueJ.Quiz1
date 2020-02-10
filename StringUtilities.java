@@ -4,9 +4,23 @@ public class StringUtilities {
      * @param input value to be returned
      * @return `input`
      */
+      /*      // given
+        String input = "Deshret";
+        String expected = input;
+
+        // when
+        String actual = utilities.returnInput(input);
+
+        // then
+        Assert.assertEquals(expected, actual);*/
+        
     public String returnInput(String input) {
-        return null;
+        String expectedName = "Deshret";
+        assertEquals (expectedName, utiliies.returnInput);
+      
+        return "input";
     }
+    }   
 
     /**
      * @param baseValue value to be added to
